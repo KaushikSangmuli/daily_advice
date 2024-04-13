@@ -66,6 +66,13 @@
     padding: 4px 4px;
 }
 
+
+#copyright{
+    color: red;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
 @media (max-width:680px) {
       *{
         font-size: 1rem;
