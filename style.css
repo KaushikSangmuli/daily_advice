@@ -1,0 +1,82 @@
+*{
+    font-family: Manrope;
+    font-weight: 600;
+}
+
+.main-container{
+    width: 90%;
+    background-color: hsl(218, 23%, 16%);
+    margin-inline: auto;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+}
+.advice-container{
+    width: 36%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-inline: auto;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+#advice-number{
+    color: hsl(150, 100%, 66%);
+    margin-top: 12%;
+}
+#advice{
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 72px;
+}
+
+.line{
+    background-color: bisque;
+    height: 2px;
+    width: 80%;
+    margin-bottom: 60px;
+}
+.btn-box{
+    display: inline;
+    position: absolute;
+    bottom: -20px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    border: none;
+    padding: 8px 8px; 
+    transition: all 0.2s ease-in-out;
+   }
+.btn-box:hover{
+    cursor: pointer;
+}
+.btn-box:active{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 4px  hsl(150, 100%, 66%); ;
+}
+.btn-box i{
+    font-size: 1.5rem;
+    padding: 4px 4px;
+}
+
+@media (max-width:680px) {
+      *{
+        font-size: 1rem;
+      }
+    .main-container{
+        width: 90%;
+    }
+    .advice-container{
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+}
